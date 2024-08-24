@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* ! 100px margin and padding */
+
+        /* .container {
+            height: 100vh;
+            background-color: blue;
+            outline: 10px solid black;
+            border: 10px solid red;
+            margin-left: 100px;
+            padding-left: 100px;
+        } */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 100vh;
+            background-color: blue;
+        }
+
+        .box {
+            background-color: pink;
+            height: 200px;
+            width: 200px;
+            padding-left: 20px;
+            border: 10px solid yellow;
+            outline: 10px solid chocolate;
+            transition: all 0.8s ease;
+        }
+
+        .box:hover {
+            transform: scale(1.5);
+            /* transform: scale(0.8); */
+            /* transform: translateX(-100px); */
+            /* transform: translateY(-100px); */
+            /* transform: rotate(1turn); */
+            /* transform: rotateX(1turn); */
+            /* transform: rotateY(1turn); */
+            /* transform: rotateY(100deg); */
+            /* transform: rotateZ(1turn); */
+            /* transform: skewX(50deg); */
+            /* transform: skewY(50deg); */
+            /* transform: translate3d(42px, -62px, -135px); */
+            background-color: red;
+        }
+
+        /* .box,
+        .box1 {
+            height: 100px;
+            width: 100px;
+        } */
+
+        /* .box {
+            background-color: black;
+            float: left;
+        }
+
+        .box1 {
+            float: right;
+            background-color: red;
+        } */
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            Content
+        </div>
+    </div>
+</body>
+
+</html>

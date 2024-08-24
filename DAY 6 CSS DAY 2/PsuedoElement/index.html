@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box::selection{
+            background-color: black;
+            color: white;
+            user-select: all;
+        } */
+        
+        .box::first-letter{
+            font-size:90px;
+            color: purple;
+        }
+
+        .box::first-line{
+            color: green;
+        }
+
+        input{
+            color: green;
+        }
+
+        input::placeholder{
+            color: green;
+        }
+        input:focus{
+            border: none;
+            outline: none;
+        }
+
+        .box::after{
+            
+        }
+        .box::before{
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <input type="text" placeholder="Username">
+        </div>
+    </div>
+</body>
+</html>

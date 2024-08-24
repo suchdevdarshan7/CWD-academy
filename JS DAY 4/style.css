@@ -1,0 +1,10 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.red{
+    background-color: red;
+    color: white; 
+    border: 10px solid crimson;
+} 

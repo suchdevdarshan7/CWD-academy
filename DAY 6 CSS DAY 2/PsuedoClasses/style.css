@@ -1,0 +1,82 @@
+  .container{
+            height:95vh;
+            background-color: navy;
+        }
+        .box{
+            height:200px;
+            width:200px;
+            background-color: yellow; 
+        }
+/*  Psudeo classes  */
+
+        a:link,
+        a:visited{
+
+        }
+
+        a:hover,
+        a:active{
+            
+        }
+        a:link{
+            color: purple;
+        }
+        a:visited{
+            color:darkolivegreen;
+        }
+        a:hover{
+
+        }
+        a:active{
+
+        }
+
+
+        .input{
+            background-color: aqua;
+        }
+        
+        .input:active{
+            background-color: black;
+        }
+        .input:focus{
+            background-color: black;
+            color: white;
+        }
+
+        /* .box:hover{
+            background-color: orange;
+        } */
+
+        /* .box:active{
+            background-color: crimson;
+        } */
+
+
+
+
+*{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+         
+      .container{
+        height:100vh;
+        background: crimson;
+      }
+      .box{
+        height:100px; 
+        width:100px; 
+
+        padding-left:100px; 
+        padding-right:100px;
+        padding-top:100px;
+        padding-bottom: 100px; 
+
+        border-color: white;
+        border-width:20px;
+        border-style: solid;
+
+        background-color: orange;
+      }        

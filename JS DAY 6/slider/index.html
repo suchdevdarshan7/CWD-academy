@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container button {
+            border-radius: 100%;
+            height: 35px;
+            width: 35px;
+            border: none;
+            color: white;
+            background-color: tomato;
+
+        }
+
+        .image {
+            height: 400px;
+            width: 400px;
+            overflow: hidden;
+            animation: moveleft 2s 1;
+        }
+
+        @keyframes moveleft {
+            from {
+                transform: translateX(50px);
+            }
+
+            to {
+                tranform: translateX(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button onclick="decrement()">
+            < </button>
+                <img class="image" src="https://cdn.pixabay.com/photo/2023/05/23/15/42/bengal-tiger-8013012_640.jpg"
+                    alt="">
+
+                <button onclick="increment()"> > </button>
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
