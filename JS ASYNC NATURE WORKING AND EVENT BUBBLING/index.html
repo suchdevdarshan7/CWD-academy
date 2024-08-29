@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 600px;
+            width: 600px;
+            background-color: navy;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box {
+            height: 400px;
+            width: 400px;
+            background-color: green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .innerbox {
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        First floor
+        <div class="box">
+            second floor
+            <div class="innerbox">
+                Third floor
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
