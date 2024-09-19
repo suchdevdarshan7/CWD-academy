@@ -1,0 +1,34 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    color: white; 
+    background-color: navy;
+    font-family: sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap:25px; 
+}
+
+ul li a{
+    color: white; 
+    text-decoration: none;
+}
+
+.btn{
+    color: white; 
+    background-color: red; 
+    padding: 15px 20px ;
+    border-radius: 12px;
+    text-decoration: none;
+}
