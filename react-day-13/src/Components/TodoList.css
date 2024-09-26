@@ -1,0 +1,8 @@
+.checked{
+    text-decoration: line-through;
+}
+
+.not-checked{
+    text-decoration: none;
+    color: red;
+}

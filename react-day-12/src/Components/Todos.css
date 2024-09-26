@@ -1,0 +1,22 @@
+.container{
+
+    display: flex;
+    justify-content: center;
+    height:100px; 
+    align-items: center;
+}
+
+input[type="text"]{
+    outline: none;
+    width:200px;
+    height:30px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    column-gap: 100px;
+    row-gap: 100px;
+}
