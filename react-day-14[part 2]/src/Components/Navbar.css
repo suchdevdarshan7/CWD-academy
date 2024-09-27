@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    height:80px;
+    background-color: tomato;
+    align-items: center;
+
+}
+
+nav button{
+    height:30px;
+    width:150px;
+}
