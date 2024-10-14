@@ -1,0 +1,11 @@
+{
+  "name": "day-4",
+  "version": "1.0.0",
+  "description": "This is to learn about os modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "darshan",
+  "license": "ISC"
+}
