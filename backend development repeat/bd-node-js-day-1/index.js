@@ -15,7 +15,7 @@ const fs = require('fs')
 //     console.log('File written succesfully')
 // })
 
-
+                
 fs.mkdir('./Components', (err) => {
 
     console.log('File created succesfully')
