@@ -1,0 +1,44 @@
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem;
+}
+
+.product-container{
+    height: 250px;
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.product-container img{
+    height:100%;
+    width:100%;
+    transition: all 0.8s ease-out;
+}
+
+.product-container img:hover{
+    transform: scale(1.2);
+}
+
+.absolute{
+    position: absolute;
+}
+.bottom{
+    width:100%;
+    background-color: yellow;
+    color: black; 
+    bottom: 2px;
+}
+.top{
+    top: 1px;
+}
+
+.product-box{
+    display: flex;
+    justify-content: space-between;
+}

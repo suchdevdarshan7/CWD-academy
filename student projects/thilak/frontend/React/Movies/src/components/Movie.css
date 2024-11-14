@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid red; */
+    box-shadow: 3px 5px 8px rgb(0,0,0.9);
+}
+.SepMovie{
+    text-align: center;
+    font-size: 4vmin;
+}

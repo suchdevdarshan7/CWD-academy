@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Search Bar -->
+    <div>
+        <input type="text" id="searchInput" placeholder="Search Movies by ID or Name">
+        <button onclick="searchMovies()">Search</button>
+    </div>
+
+    <!-- Filter Movies -->
+    <div>
+        <input type="text" id="filterHero" placeholder="Filter by Hero">
+        <button onclick="filterMovies()">Filter</button>
+    </div>
+
+    <!-- Add Movie -->
+    <div>
+        <h3>Add Movie</h3>
+        <form id="addMovieForm">
+            <input type="text" id="name" placeholder="Movie Name" required>
+            <input type="text" id="hero" placeholder="Hero" required>
+            <input type="text" id="heroine" placeholder="Heroine" required>
+            <textarea id="description" placeholder="Description" required></textarea>
+            <input type="url" id="image" placeholder="Image URL" required>
+            <button type="submit">Add Movie</button>
+        </form>
+    </div>
+
+    <!-- Movies Grid -->
+    <div class="container" id="moviesContainer">
+        <!-- Movie cards will be rendered here -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

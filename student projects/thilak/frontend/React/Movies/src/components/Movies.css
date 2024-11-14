@@ -1,0 +1,35 @@
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr ;
+    padding :20px;
+    gap:20px;
+  }
+  
+   .Moviediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border:2px solid black;
+    box-shadow: 5px 7px 8px rgba(0, 0, 0, 0.5);
+    background-color: lawngreen;
+    
+  
+   }
+   .Moviediv li{
+    list-style: none;
+   }
+   .Moviediv button{
+    border:1px solid black;
+    background-attachment: fixed;
+    background-color: aqua;
+   }
+  .container img{
+  
+    height: 250px;
+    width: 250px;
+  }
+ 
+    
+  

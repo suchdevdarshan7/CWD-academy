@@ -1,0 +1,23 @@
+.cart-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cart-container{
+    height:15rem;
+    width:70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    overflow: hidden;
+    
+}
+
+.cart-container div img{
+    height: 15rem;
+    width: 20rem;
+}

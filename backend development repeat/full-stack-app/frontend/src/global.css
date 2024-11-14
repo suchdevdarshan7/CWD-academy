@@ -1,0 +1,13 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+ 
+html{
+    font-size: 62.5%;
+}
+
+/* 1rem : 16px;
+1rem : 10px; */
