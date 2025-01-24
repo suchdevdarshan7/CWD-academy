@@ -1,0 +1,15 @@
+nav,ul{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+.flex-container{
+    display: flex;
+}
+
+
